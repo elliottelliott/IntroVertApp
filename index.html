@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- style sheets -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Exo|Julius+Sans+One" rel="stylesheet">
+    <!-- js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+  </head>
+  
+  <body>
+
+    <div class="text-center jumbotron">
+      <h1><span class="fa fa-diamond" aria-hidden="true"></span> IntroVert Escape <span class="fa fa-diamond" aria-hidden="true"></span></h1>
+    </div>
+    <!-- start of app -->
+    <div ng-app="introvert" ng-controller="IntrovertCtrl as introvertvm">
+
+    <div class="container-fluid">
+      <img class="img-responsive center-block" ng-src="{{introvertvm.images[introvertvm.imageIndex]}}" alt="Large Open Building"/>  
+    </div>
+
+    <div class="text-center">
+      <button class="btn btn-default btn-lg" ng-click="introvertvm.previous ()">That Way</button>
+      <span> ""{Encouraging (angular GET IT repeat) Messages}"" </span>
+      <button class="btn btn-default btn-lg" ng-click="introvertvm.next ()">This Way</button>
+    </div> <!-- /buttons -->
+    </div> <!-- /container-fluid -->
+    </div> <!-- /ng-app -->
+    <footer></footer>
+<!-- / -->
+  </body>
+  
+</html>

@@ -1,0 +1,45 @@
+/** {
+	border: solid black 2px;
+}*/
+
+body {
+	font-family: "Abel", sans-serif;
+	/*background-color: rgba(242,0,189, 0.7);*/
+	background-color: #D40081;
+}
+
+.jumbotron {
+	color: #D40081;
+	background-color: #00D4BD;
+	text-shadow: 2px 1px 2px pink, 0 0 25px red, 0 0 5px #fff;
+	font-family: 'Exo', sans-serif;
+}
+
+ 
+.jumbotron h1 {
+	font-size: 83px;
+}
+
+.fa-anchor {
+	font-size: 16px;
+}
+
+img {
+	max-width: 65%;
+	max-height: 600px;
+	border: double 4px #56555C;
+	margin-bottom: 9px;
+
+}
+
+.btn {
+	background-color: #899EA8;
+	color: black;
+	border: double 3px #56555C;
+}
+
+footer {
+	background-color: #00D4BD;
+	height: 35px;
+	margin-top: 25px;
+}
